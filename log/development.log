@@ -1,0 +1,500 @@
+Started GET "/" for 127.0.0.1 at 2017-07-25 10:09:56 +0530
+  
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+mysql2 (0.4.8) lib/mysql2/client.rb:89:in `connect'
+mysql2 (0.4.8) lib/mysql2/client.rb:89:in `initialize'
+activerecord (5.1.2) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `new'
+activerecord (5.1.2) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `mysql2_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.2) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.2) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.2) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-07-25 10:09:57 +0530
+  
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+mysql2 (0.4.8) lib/mysql2/client.rb:89:in `connect'
+mysql2 (0.4.8) lib/mysql2/client.rb:89:in `initialize'
+activerecord (5.1.2) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `new'
+activerecord (5.1.2) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `mysql2_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.2) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.2) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.2) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-25 10:11:33 +0530
+  
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+mysql2 (0.4.8) lib/mysql2/client.rb:89:in `connect'
+mysql2 (0.4.8) lib/mysql2/client.rb:89:in `initialize'
+activerecord (5.1.2) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `new'
+activerecord (5.1.2) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `mysql2_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.2) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.2) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.2) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-07-25 10:11:33 +0530
+  
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+mysql2 (0.4.8) lib/mysql2/client.rb:89:in `connect'
+mysql2 (0.4.8) lib/mysql2/client.rb:89:in `initialize'
+activerecord (5.1.2) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `new'
+activerecord (5.1.2) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `mysql2_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.2) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.2) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.2) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-25 10:11:42 +0530
+  
+ActiveRecord::NoDatabaseError (Unknown database 'rails_auth_crud_api_development'):
+  
+activerecord (5.1.2) lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `rescue in mysql2_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/mysql2_adapter.rb:12:in `mysql2_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.2) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.2) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.2) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-07-25 10:11:42 +0530
+  
+ActiveRecord::NoDatabaseError (Unknown database 'rails_auth_crud_api_development'):
+  
+activerecord (5.1.2) lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `rescue in mysql2_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/mysql2_adapter.rb:12:in `mysql2_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.2) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.2) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.2) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (341.8ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (272.6ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK(536052450900073800, 0)[0m
+  [1m[35m (23.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateStudents (20170725043904)
+  [1m[35m (278.3ms)[0m  [1m[35mCREATE TABLE `students` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `age` int, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20170725043904')[0m
+  [1m[35m (44.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2017-07-25 04:42:22', '2017-07-25 04:42:22')[0m
+  [1m[35m (46.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK(536052450900073800)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW CREATE TABLE `students`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'students'[0m
+Started GET "/" for 127.0.0.1 at 2017-07-25 10:12:28 +0530
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/railsdev/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/railsdev/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 22ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-07-25 10:12:29 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/students" for 127.0.0.1 at 2017-07-25 10:12:36 +0530
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.3ms)[0m  [1m[34mSELECT `students`.* FROM `students`[0m
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/students/new" for 127.0.0.1 at 2017-07-25 10:12:46 +0530
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"new"}
+  [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT  `students`.* FROM `students` WHERE `students`.`id` = 0 LIMIT 1[0m
+Completed 404 Not Found in 24ms (ActiveRecord: 1.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Student with 'id'=new):
+  
+app/controllers/students_controller.rb:44:in `set_student'
+Started GET "/" for 127.0.0.1 at 2017-07-25 10:13:17 +0530
+Processing by Rails::WelcomeController#index as */*
+  Rendering /home/railsdev/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/railsdev/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2017-07-25 10:13:23 +0530
+Processing by StudentsController#index as */*
+  [1m[36mStudent Load (0.5ms)[0m  [1m[34mSELECT `students`.* FROM `students`[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/students/" for 127.0.0.1 at 2017-07-25 10:17:59 +0530
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.5ms)[0m  [1m[34mSELECT `students`.* FROM `students`[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/students/" for 127.0.0.1 at 2017-07-25 10:19:53 +0530
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.5ms)[0m  [1m[34mSELECT `students`.* FROM `students`[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/students" for 127.0.0.1 at 2017-07-25 10:25:54 +0530
+Processing by StudentsController#create as */*
+  Parameters: {"name"=>"xyz", "age"=>20, "student"=>{"name"=>"xyz", "age"=>20}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `students` (`name`, `age`, `created_at`, `updated_at`) VALUES ('xyz', 20, '2017-07-25 04:55:54', '2017-07-25 04:55:54')[0m
+  [1m[35m (44.0ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 56ms (Views: 1.8ms | ActiveRecord: 44.5ms)
+
+
+Started GET "/students/" for 127.0.0.1 at 2017-07-25 10:26:05 +0530
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.6ms)[0m  [1m[34mSELECT `students`.* FROM `students`[0m
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2017-07-25 10:26:35 +0530
+Processing by StudentsController#index as */*
+  [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT `students`.* FROM `students`[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/students" for 127.0.0.1 at 2017-07-25 10:30:40 +0530
+Processing by StudentsController#create as */*
+  Parameters: {"id"=>1, "name"=>"xyz", "age"=>20, "student"=>{"id"=>1, "name"=>"xyz", "age"=>20}}
+Unpermitted parameter: :id
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO `students` (`name`, `age`, `created_at`, `updated_at`) VALUES ('xyz', 20, '2017-07-25 05:00:40', '2017-07-25 05:00:40')[0m
+  [1m[35m (72.4ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 77ms (Views: 0.7ms | ActiveRecord: 73.0ms)
+
+
+Started GET "/students/" for 127.0.0.1 at 2017-07-25 10:30:56 +0530
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT `students`.* FROM `students`[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/students/" for 127.0.0.1 at 2017-07-25 10:30:58 +0530
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT `students`.* FROM `students`[0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/students/" for 127.0.0.1 at 2017-07-25 10:30:58 +0530
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT `students`.* FROM `students`[0m
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/students/" for 127.0.0.1 at 2017-07-25 10:30:58 +0530
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.3ms)[0m  [1m[34mSELECT `students`.* FROM `students`[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/students" for 127.0.0.1 at 2017-07-25 10:31:40 +0530
+  
+ActionController::RoutingError (No route matches [PATCH] "/students"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started PATCH "/students" for 127.0.0.1 at 2017-07-25 10:32:07 +0530
+  
+ActionController::RoutingError (No route matches [PATCH] "/students"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/students/" for 127.0.0.1 at 2017-07-25 10:33:54 +0530
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.5ms)[0m  [1m[34mSELECT `students`.* FROM `students`[0m
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/students/" for 127.0.0.1 at 2017-07-25 10:33:55 +0530
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.3ms)[0m  [1m[34mSELECT `students`.* FROM `students`[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/students/" for 127.0.0.1 at 2017-07-25 10:33:55 +0530
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT `students`.* FROM `students`[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/students/" for 127.0.0.1 at 2017-07-25 10:33:55 +0530
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.3ms)[0m  [1m[34mSELECT `students`.* FROM `students`[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/students/1" for 127.0.0.1 at 2017-07-25 10:34:30 +0530
+Processing by StudentsController#update as */*
+  Parameters: {"name"=>"danish", "age"=>20, "id"=>"1", "student"=>{"name"=>"danish", "age"=>20}}
+  [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT  `students`.* FROM `students` WHERE `students`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (26.6ms)[0m  [1m[33mUPDATE `students` SET `name` = 'danish', `updated_at` = '2017-07-25 05:04:30' WHERE `students`.`id` = 1[0m
+  [1m[35m (45.0ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 77ms (Views: 0.5ms | ActiveRecord: 72.2ms)
+
+
+Started GET "/students/" for 127.0.0.1 at 2017-07-25 10:34:39 +0530
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.5ms)[0m  [1m[34mSELECT `students`.* FROM `students`[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.5ms)
+
+
